@@ -24,3 +24,9 @@ nav {
     border: none;
     border-bottom: 1px solid #ccc;
 }
+
+.description {
+    text-align: center;
+    color: grey;
+    font-size: 0.9rem; /* 较小的字体 */
+}

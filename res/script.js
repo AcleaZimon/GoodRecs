@@ -5,7 +5,7 @@ function renderRepositoryInfo(data) {
         <h2>${data.RepositoryName}</h2>
         <img src="${data.Banner}" alt="Repository Banner" class="responsive-img">
         <hr class="hr-separator">
-        <p>${data.Description}</p>
+        <p class="description">${data.Description}</p> <!-- 更新类名 -->
         <div class="features">
             <ul>
                 ${data.Features.map(feature => `<li>${feature}</li>`).join('')}
