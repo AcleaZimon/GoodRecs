@@ -30,3 +30,15 @@ nav {
     color: grey;
     font-size: 0.9rem; /* 较小的字体 */
 }
+
+.card-panel {
+    border-radius: 15px;
+}
+
+.material-icons.left {
+    margin-right: 10px;
+}
+
+.white-text {
+    font-size: 1.2em;
+}
