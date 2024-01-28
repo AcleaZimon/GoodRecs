@@ -1,5 +1,5 @@
 // script.js
-function renderRepositoryInfo(data) {
+function renderRepositoryInfo(data, index) {
     const container = document.getElementById('repository-info');
     container.innerHTML = `
         <h2>${data.RepositoryName}</h2>
@@ -17,7 +17,8 @@ function renderRepositoryInfo(data) {
         </div>
         ${data.Other ? `<p>${data.Other}</p>` : ''}
         <a href="${data.RepositoryUrl}" target="_blank" class="btn">访问仓库</a>
+        <a href="/posts/${index +1 }.html" target="_blank" class="btn">下一篇</a>
     `;
 }
 
-window.onload = () => renderRepositoryInfo(repositoryData);
+window.onload = () => renderRepositoryInfo(repositoryData, index);
