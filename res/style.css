@@ -1,0 +1,4 @@
+/* styles.css */
+.container { max-width: 960px; margin: 0 auto; }
+.adsense-placeholder { margin: 20px 0; text-align: center; background-color: #eee; padding: 20px; }
+.tag-chips .chip { margin-right: 5px; }
