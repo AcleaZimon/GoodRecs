@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repo</title>
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="/res/styles.css"> <!-- 引入自定义样式 -->
+</head>
+<body>
+
+    <nav>
+        <div class="nav-wrapper">
+            <div class="container">
+                <a href="#" class="brand-logo">Github精选</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div id="repository-info"></div>
+    </div>
+
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>const repositoryData = {
+            "RepositoryName": "测试仓库",
+            "RepositoryUrl": "https://github.com/xx/xx",
+            "Description": "一段简洁的仓库介绍，描述了仓库的信息",
+            "Features": ["功能/特性介绍第一行", "功能/特性介绍第二行"],
+            "Tags": ["Python", "机械学习", "Flutter", "其它"],
+            "Other": "补充说明，空字符串则为无",
+            "Banner": "res/test.png"
+        };</script>
+    <script src="/res/script.js"></script> <!-- 引入JavaScript -->
+</body>
+</html>
