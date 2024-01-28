@@ -1,10 +1,10 @@
 // script.js
-function renderRepositoryInfo(data, elementId) {
-    const container = document.getElementById(elementId);
-    if (!container) return;
+function renderRepositoryInfo(data) {
+    const container = document.getElementById('repository-info');
     container.innerHTML = `
         <h2>${data.RepositoryName}</h2>
         <img src="${data.Banner}" alt="Repository Banner" class="responsive-img">
+        <hr class="hr-separator">
         <p>${data.Description}</p>
         <div class="features">
             <ul>
@@ -14,12 +14,10 @@ function renderRepositoryInfo(data, elementId) {
         <div class="tag-chips">
             ${data.Tags.map(tag => `<div class="chip">${tag}</div>`).join('')}
         </div>
-        <p>${data.Other}</p>
+        ${data.Other ? `<p>${data.Other}</p>` : ''}
         <a href="${data.RepositoryUrl}" target="_blank" class="btn">访问仓库</a>
-        <div class="adsense-placeholder">AdSense广告位</div>
     `;
 }
 
 
-// 当页面加载完成时，调用此函数
-window.onload = () => renderRepositoryInfo(repositoryData, 'repository-info');
+window.onload = () => renderRepositoryInfo(repositoryData);

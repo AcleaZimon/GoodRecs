@@ -1,4 +1,6 @@
 /* styles.css */
-.container { max-width: 960px; margin: 0 auto; }
-.adsense-placeholder { margin: 20px 0; text-align: center; background-color: #eee; padding: 20px; }
+body { background-color: #e0e0e0; } /* 灰色风格背景 */
+.container { max-width: 960px; margin: 0 auto; padding-top: 64px; }
 .tag-chips .chip { margin-right: 5px; }
+nav { position: fixed; top: 0; width: 100%; z-index: 1000; }
+.hr-separator { margin-top: 20px; border: none; border-bottom: 1px solid #ccc; }
