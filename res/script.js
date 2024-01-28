@@ -7,8 +7,9 @@ function renderRepositoryInfo(data) {
         <hr class="hr-separator">
         <p class="description">${data.Description}</p> <!-- 更新类名 -->
         <div class="features">
+            <center>🔧Features</center>
             <ul>
-                ${data.Features.map(feature => `<li>${feature}</li>`).join('')}
+                ${data.Features.map(feature => `<li>• ${feature}</li>`).join('')}
             </ul>
         </div>
         <div class="tag-chips">
@@ -18,6 +19,5 @@ function renderRepositoryInfo(data) {
         <a href="${data.RepositoryUrl}" target="_blank" class="btn">访问仓库</a>
     `;
 }
-
 
 window.onload = () => renderRepositoryInfo(repositoryData);
