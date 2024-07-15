@@ -27,7 +27,7 @@ defaults:
   # Site logo
   logo: /images/logo.ico
   # Site avatar
-  avatar: /images/new avatar.jpg
+  avatar: /images/new_avatar.jpg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
