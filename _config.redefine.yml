@@ -136,7 +136,7 @@ home_banner:
   # Specific style of the text
   text_style: 
     # Title font size
-    title_size: 2.8rem
+    title_size: 3.2rem
     # Subtitle font size
     subtitle_size: 1.5rem
     # Line height between title and subtitle
