@@ -23,7 +23,7 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: /images/logo.ico
+  favicon: /images/logo.png
   # Site logo
   logo: /images/logo.ico
   # Site avatar
