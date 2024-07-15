@@ -113,7 +113,7 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/background-light # light mode
+    light: /images/background-light.jpg # light mode
     dark: /images/background_dark.jpg # dark mode
   # Home banner title
   title: GoodRecs
