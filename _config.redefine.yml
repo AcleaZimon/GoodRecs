@@ -187,8 +187,13 @@ navbar:
   # Navbar links
   links:
     Home: 
-      path: / 
+      path: /
       icon: fa-regular fa-house # can be empty
+    Language:
+      icon: fa-solid fa-font
+      submenus:
+        English: /
+        简体中文: /zh-cn/
     # Archives: 
     #   path: /archives 
     #   icon: fa-regular fa-archive # can be empty
