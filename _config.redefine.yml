@@ -13,9 +13,9 @@ info:
   # Site title
   title: GoodRecs
   # Author name
-  author: Aclea Zimon
+  author: Swimmer200809
   # Site URL
-  url: https://acleazimon.github.io/GoodRecs
+  url: https://goodrecs.org
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -27,7 +27,7 @@ defaults:
   # Site logo
   logo: /images/logo.ico
   # Site avatar
-  avatar: /images/new_avatar.jpg
+  avatar: /images/avatars/Swimmer200809.jpg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -189,11 +189,7 @@ navbar:
     Home: 
       path: /
       icon: fa-regular fa-house # can be empty
-    Language:
-      icon: fa-solid fa-font
-      submenus:
-        English: /
-        简体中文: /zh-cn/
+      
     # Archives: 
     #   path: /archives 
     #   icon: fa-regular fa-archive # can be empty
@@ -228,7 +224,7 @@ navbar:
 home:
   # Sidebar settings
   sidebar:
-    enable: true # Whether to enable sidebar
+    enable: false # Whether to enable sidebar
     position: left # Sidebar position. left, right
     first_item: menu # First item in sidebar. menu, info
     announcement: # Announcement text
@@ -283,7 +279,7 @@ articles:
     min2read: true # Whether to display reading time
   # Author label
   author_label: 
-    enable: true # Whether to enable
+    enable: false # Whether to enable
     auto: false # Whether to automatically add author label, e.g. Lv1, Lv2, Lv3...
     list: []
   # Code block settings
