@@ -13,7 +13,7 @@ info:
   # Site title
   title: GoodRecs
   # Author name
-  author: Swimmer200809
+  author: Aclea Zimon
   # Site URL
   url: https://goodrecs.org
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -27,7 +27,7 @@ defaults:
   # Site logo
   logo: /images/logo.ico
   # Site avatar
-  avatar: /images/avatars/Swimmer200809.jpg
+  avatar: /images/avatars/new_avatar.jpg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
