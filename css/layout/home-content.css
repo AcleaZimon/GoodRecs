@@ -237,19 +237,6 @@
   --redefine-box-shadow-flat-hover: var(--shadow-color-2) 0px 1px 4px 0px, var(--shadow-color-1) 0px 0px 0px 1px, var(--shadow-color-1) 0px 0px 0px 1px inset;
   --mermaid-theme: '';
 }
-.home-content-container {
-  margin-right: 38px;
-}
-@media (max-width: 768px) {
-  .home-content-container {
-    margin-right: 0;
-  }
-}
-@media (max-width: 640px) {
-  .home-content-container {
-    margin-right: 0;
-  }
-}
 .home-content-container .seo-reader-text {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
