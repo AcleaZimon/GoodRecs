@@ -189,6 +189,9 @@ navbar:
     Home: 
       path: /
       icon: fa-regular fa-house # can be empty
+    Submission:
+      path: https://github.com/AcleaZimon/GoodRecs/issues
+      icon: fa-solid fa-signs-post
     Languages: 
       icon: fa-solid fa-language
       submenus:
