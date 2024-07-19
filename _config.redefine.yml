@@ -189,6 +189,11 @@ navbar:
     Home: 
       path: /
       icon: fa-regular fa-house # can be empty
+    Languages: 
+      icon: fa-solid fa-language
+      submenus:
+        English: /
+        简体中文: https://cn.goodrecs.org
       
     # Archives: 
     #   path: /archives 
